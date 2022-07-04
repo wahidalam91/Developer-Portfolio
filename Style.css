@@ -53,13 +53,23 @@ span {
     background-position: right;
     
 }
-.experiance-item {
+#Baby-Web-Developer {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid dodgerblue;
+}
+#Full-Stack-Developer {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid tomato;
 }
 
 .Experience-Area {
@@ -67,4 +77,9 @@ span {
     background-repeat: no-repeat;
     background-position: left;
 }
+
+footer p {
+    text-align: center;
+}
+
 
