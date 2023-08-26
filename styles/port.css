@@ -1,5 +1,4 @@
 /* Shared Styles */
-
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
@@ -14,6 +13,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -25,11 +25,14 @@ nav{
 nav > ul{
     display: flex;
     align-items: center;
+    font-weight: 100;
 }
 
 nav li{
+    font-style: normal;
     list-style: none;
     margin: 50px;
+    
 }
 
 nav a {
@@ -46,4 +49,18 @@ nav a {
     border: 0;
     padding: 15px 35px;
 
+}
+
+/* Header Styles */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture{
+    width: 500px;
 }
